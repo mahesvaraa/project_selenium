@@ -8,7 +8,7 @@ from .pages.login_page import LoginPage
 from .pages.product_page import ProductPage
 
 
-class TestUser:
+class TestUserAddToBasketFromProductPage:
 
     @pytest.fixture(scope="function", autouse=True)
     def setup(self, browser):
